@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: url("https://bernardmarr.com/img/30%20Real%20Examples%20Of%20Blockchain%20Technology%20In%20Practice.png");
+    border-bottom: 1px solid rgb(16, 0, 85);
+}
+
+.header{
+    text-align: center;
+    margin-top: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.carousel{
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+.carousel img{
+    margin: auto;
+}
+
+.aprasymas{
+  padding: 50px;
+  font-size: large;
+  width: 60%;
+  margin: auto;
+  color: rgb(199, 199, 199);
+}
+
+@media(max-width: 800px){
+    .aprasymas{
+        font-size: smaller;
+        padding: 20px;
+      }
+      .carousel img{
+          height: 60px;
+          width: 60px;
+      }
+}
